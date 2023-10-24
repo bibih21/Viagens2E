@@ -4,7 +4,7 @@ public class ValidacaoCPF {
 
 
 
-    public static boolean validarCPF(String cpf) {
+    public static boolean ValidacaoCPF(String cpf) {
 
         // Remove caracteres não numéricos do CPF
 
@@ -82,7 +82,7 @@ public class ValidacaoCPF {
 
         String cpf = "123.456.789-09"; // Substitua pelo CPF que deseja validar
 
-        if (validarCPF(cpf)) {
+        if (ValidacaoCPF(cpf)) {
 
             System.out.println("CPF válido!");
 
@@ -96,5 +96,3 @@ public class ValidacaoCPF {
 
 }
 
-
-}
